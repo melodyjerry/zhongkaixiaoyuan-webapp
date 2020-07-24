@@ -1,0 +1,26 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/collegeicon.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">学院机构</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="注：以下所列学院专业并非今年实际的招生专业，具体招生专业请以招生考试机构最终公布的为准" />
+	</van-cell-group>
+	<van-collapse value="{{ activeNames }}" bind:change="onChange">
+		<block wx:for="{{colleges}}" wx:for-item="college" wx:key="id">
+			<van-collapse-item title="{{college.name}}" name="{{college.id}}">
+				<block wx:for="{{college.majors}}" wx:for-item="major" wx:for-index="majorIndex" wx:key="majorIndex">
+					<view class="weui-cell">
+						<view class="weui-cell__ft">{{major}}</view>
+					</view>
+				</block>
+			</van-collapse-item>
+		</block>
+	</van-collapse>
+</view>

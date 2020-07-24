@@ -1,0 +1,28 @@
+<view class="page" data-weui-theme="{{theme}}">
+    <view class="page__hd">
+        <view class="page__title">MelodyJerry</view>
+        <view class="page__desc">书写是对思维的缓存</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-cells weui-cells_after-title">
+           
+            <view class="weui-cell">
+                <view class="weui-cell__bd">微信</view>
+                <view class="weui-cell__ft" bindtap="copyWeChat">MelodyJerry</view>
+            </view>
+             <view class="weui-cell">
+                <view class="weui-cell__bd">QQ</view>
+                <view class="weui-cell__ft" bindtap="copyQQ"></view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__bd">个人邮箱</view>
+                <view class="weui-cell__ft" bindtap="copyEmail">melodyjerry@qq.com</view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__bd">个人博客</view>
+                <view class="weui-cell__ft" bindtap="copyBlog">https://melodyjerry.gitee.io</view>
+            </view>
+            
+        </view>
+    </view>
+</view>

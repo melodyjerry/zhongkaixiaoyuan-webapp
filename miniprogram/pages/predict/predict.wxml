@@ -1,0 +1,47 @@
+<van-cell-group>
+	<van-field value="{{ username }}" label="排名" left-icon="chart-trending-o" placeholder="请输入您的排名" bind:change="onRankChange"/>
+	<van-radio-group value="{{ radio }}">
+  <van-cell-group>
+    <van-cell title="文科生" clickable data-name="文科"  bind:click="onClick">
+      <van-radio slot="right-icon" checked-color="#07c160" name="文科" />
+    </van-cell>
+    <van-cell title="理科生" clickable data-name="理科" bind:click="onClick">
+      <van-radio slot="right-icon" checked-color="#07c160" name="理科" />
+    </van-cell>
+		<van-cell title="艺术生" clickable data-name="艺术" bind:click="onClick">
+      <van-radio slot="right-icon" checked-color="#07c160" name="艺术" />
+    </van-cell>
+  </van-cell-group>
+</van-radio-group>
+	<van-cell title="专业范围" value="{{ majorInfo }}"bind:click="showPopup" />
+
+	<van-button type="primary" block bind:click="submit">查询</van-button>
+  <van-divider />
+	<van-panel header-class="panelHead"  wx:for="{{ queryData }}" title="{{item.name}}"wx:for-index="index" wx:key="index">
+		<view>
+			<van-cell-group>
+				<van-cell title="去年最低排位" value="{{item.lowestRank}}" />
+				<van-cell title="去年最低分数" value="{{ item.lowestScore }}" />
+				<van-cell title="一志愿录取率" value="{{ item.rate }}%" />
+        <van-cell title="热门程度">
+        <van-rate value="{{ item.rateValue }}" readonly size="{{ 18 }}" color="#ee0a24" void-color="#eee" void-icon="star" bind:change="onChange" />
+        </van-cell>
+        <van-cell title="录取概率" >
+        <van-tag type="success" size="large">{{rateadmins[index].rateadmin}}%</van-tag>
+        </van-cell>
+				<van-cell value-class="info-class" value="{{ infos[index].rankinfo}}" />
+			</van-cell-group>
+		</view>
+    <van-divider />
+	</van-panel>
+<van-cell-group>
+<van-cell title="声明" />
+<van-cell value="1.数据来源：数据来自招生考试处公布的2019年广东省的文理科以及中外联合项目班的数据；没有录入省外的数据；没有地方专项的数据。" value-class="van-value-desc" />
+<van-cell value="2.功能特点：可以方便快速查阅去年各专业的录取情况。" value-class="van-value-desc" />
+<van-cell value="3.其它：录取概率的计算仅供娱乐。" value-class="van-value-desc" />
+</van-cell-group>
+	<van-popup show="{{ show }}" round custom-style="height: 40%" position="bottom">
+		<van-picker show-toolbar toolbar-class="top-green" title="专业" columns="{{ columns }}" bind:cancel="onCancel" bind:confirm="onConfirm" bind:change="onChange" />
+	</van-popup>
+
+</van-cell-group>

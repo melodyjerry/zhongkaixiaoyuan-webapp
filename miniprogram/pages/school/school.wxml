@@ -1,0 +1,41 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/schoolicon.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">学校简介</view>
+		</view>
+	</view>
+
+	<block wx:for="{{schoolInfos}}" wx:for-item="schoolInfo">
+		<van-cell-group custom-class="van-cell-group">
+			<van-cell value="{{schoolInfo}}" value-class="van-value" />
+		</van-cell-group>
+	</block>
+
+	<view class="weui-cells">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/motto.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">学校校训、校歌、校徽</view>
+		</view>
+	</view>
+	<van-cell-group custom-class="van-cell-group">
+	<van-cell title="1.学校校训" />
+		<van-cell value="{{schoolmotto}}" value-class="van-value" />
+	</van-cell-group>
+	<!-- <image class="mottoimage" src="https://note.youdao.com/yws/api/personal/file/WEBa1f54fe7ab40f047fc4510fa9e978d62?method=download&shareKey=8c5167bb69f039d45767adf3d9fd76c4"></image> -->
+	<van-cell-group custom-class="van-cell-group">
+	<van-cell title="2.学校校歌" icon='{{shifouplay?"pause-circle-o" : "play-circle-o"}}' bindtap="playMusic"></van-cell>
+		<van-cell value="{{schoolmusic}}" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="{{schoollogo}}" />
+	</van-cell-group>
+	<image class="mottoimage" style="height: 230rpx;" src="https://s1.ax1x.com/2020/07/19/UR2EXn.png"></image>
+
+</view>

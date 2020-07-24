@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "仲恺小园-来校路线",
+  "usingComponents": {
+    "van-cell" : "/miniprogram_npm/vant-weapp/cell/index",
+    "van-cell-group" : "/miniprogram_npm/vant-weapp/cell-group/index"
+  }
+}

@@ -1,0 +1,338 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"appid": "wx4b9a016e4016c3a6",
+	"projectname": "GDUFE-WEL-WeApp",
+	"libVersion": "2.11.3",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"compileType": "miniprogram",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "example/index",
+					"pathName": "example/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/about/about",
+					"pathName": "pages/about/about",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/NotFound/NotFound",
+					"pathName": "pages/NotFound/NotFound",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "example/list/list",
+					"pathName": "example/list/list",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "example/list/list",
+					"pathName": "example/list/list",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/miltrain/miltrain",
+					"pathName": "pages/miltrain/miltrain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "example/panel/panel",
+					"pathName": "example/panel/panel",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/panel/panel",
+					"pathName": "pages/panel/panel",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/list/list",
+					"pathName": "pages/list/list",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/school/school",
+					"pathName": "pages/school/school",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/school/college",
+					"pathName": "pages/school/college",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/melodyjerry/melodyjerry",
+					"pathName": "pages/melodyjerry/melodyjerry",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/schoolhandbook/recruit",
+					"pathName": "pages/schoolhandbook/recruit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/schoolhandbook/previous",
+					"pathName": "pages/schoolhandbook/previous",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/schoolhandbook/cost",
+					"pathName": "pages/schoolhandbook/cost",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/schoolhandbook/suggestion",
+					"pathName": "pages/schoolhandbook/suggestion",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/handbook/route",
+					"pathName": "pages/handbook/route",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/handbook/antifraud",
+					"pathName": "pages/handbook/antifraud",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/handbook/dorm",
+					"pathName": "pages/handbook/dorm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/handbook/canteen",
+					"pathName": "pages/handbook/canteen",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/handbook/miltrain",
+					"pathName": "pages/handbook/miltrain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/schoolhandbook/consult",
+					"pathName": "pages/schoolhandbook/consult",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/learn/time",
+					"pathName": "pages/learn/time",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/learn/course",
+					"pathName": "pages/learn/course",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/learn/url",
+					"pathName": "pages/learn/url",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/learn/diathesis",
+					"pathName": "pages/learn/diathesis",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/learn/major",
+					"pathName": "pages/learn/major",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/learn/minor",
+					"pathName": "pages/learn/minor",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/learn/league",
+					"pathName": "pages/learn/league",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/life/electric",
+					"pathName": "pages/life/electric",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/life/wifi",
+					"pathName": "pages/life/wifi",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/life/treament",
+					"pathName": "pages/life/treament",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/life/eat",
+					"pathName": "pages/life/eat",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/life/deliver",
+					"pathName": "pages/life/deliver",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/life/map",
+					"pathName": "pages/life/map",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/predict/predict",
+					"pathName": "pages/predict/predict",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/predict/addMajor",
+					"pathName": "pages/predict/addMajor",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/handbook/video",
+					"pathName": "pages/handbook/video",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/schoolhandbook/plan",
+					"pathName": "pages/schoolhandbook/plan",
+					"scene": null
+				}
+			]
+		}
+	}
+}

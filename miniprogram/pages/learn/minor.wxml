@@ -1,0 +1,42 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/minor.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">辅修专业信息</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="我校普教本科生可以跨学科门类修读主修专业之外的另外一个专业。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="申请条件：" />
+		<van-cell value="1.有我校学籍的普教本科一年级在校学生；" value-class="van-value" />
+		<van-cell value="2.申请时累积平均学分绩点达 2.3 及以上；" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="申请时间：" />
+		<van-cell value="每年春季学期第四周前进行网上报名;" value-class="van-value" />
+	</van-cell-group>
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell title="录取原则：" />
+		<van-cell value="累积平均学分绩点高者优先录取；" value-class="van-value" />
+	</van-cell-group>
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell title="申请专业：" />
+		<van-cell value="1.每位学生只能辅修一个专业，从第三学期开始修读；" value-class="van-value" />
+		<van-cell value="2.所选专业必须跨学科门类，例如经济学门类的学生辅修管理学门类下的专业;" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell title="毕业与授予学位：" />
+		<van-cell value="1.获得主修专业学士学位者，修满辅修专业教学计划规定的学分且达到授予辅修专业学士学位条件者，授予辅修专业学士学位；" value-class="van-value" />
+		<van-cell value="2.获得主修专业毕业证书者且已修满辅修专业教学计划学分达30学分以上（含30学分）者，可以取得辅修专业毕业证书。" value-class="van-value" />
+	</van-cell-group>
+	
+</view>

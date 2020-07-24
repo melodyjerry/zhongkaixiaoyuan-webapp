@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "仲恺小园-转专业信息",
+  "usingComponents": {
+    "van-cell" : "/miniprogram_npm/vant-weapp/cell/index",
+    "van-cell-group" : "/miniprogram_npm/vant-weapp/cell-group/index"
+  }
+}

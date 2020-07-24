@@ -1,0 +1,56 @@
+<view class="page">
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/yearsituation.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">近三年来录取情况</view>
+		</view>
+	</view>
+	<view class="table">
+		<view class="table-tr">
+			<view class="table-th"></view>
+			<view class="table-th">2017</view>
+			<view class="table-th">2018</view>
+			<view class="table-th">2019</view>
+		</view>
+		<view class="table-tr">
+			<view class="table-td">理科最低分</view>
+			<view class="table-td">448</view>
+			<view class="table-td">461</view>
+			<view class="table-td">469</view>
+		</view>
+		<view class="table-tr">
+			<view class="table-td">理科最低排位</view>
+			<view class="table-td">103104</view>
+			<view class="table-td">109538</view>
+			<view class="table-td">107043</view>
+		</view>
+		<view class="table-tr">
+			<view class="table-td">文科最低分</view>
+			<view class="table-td">500</view>
+			<view class="table-td">527</view>
+			<view class="table-td">532</view>
+		</view>
+    <view class="table-tr">
+			<view class="table-td">文科最低排位</view>
+			<view class="table-td">27581</view>
+			<view class="table-td">30310</view>
+			<view class="table-td">29489</view>
+		</view>
+	</view>
+
+	<block wx:for="{{piture}}">
+		<view class="weui-cells">
+			<view class="weui-cell">
+				<view class="weui-cell__hd">
+					<image src="/images/2019.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+				</view>
+				<view class="weui-cell__bd">{{item.title}}</view>
+			</view>
+		</view>
+		<image data-url="{{item.imageurl1}}" bindtap="showDetails" class="situationimage{{item.id}}" src="{{item.imageurl1}}"></image>
+		<image data-url="{{item.imageurl2}}" bindtap="showDetails" class="situationimage{{item.id}}" src="{{item.imageurl2}}"></image>
+	</block>
+
+</view>

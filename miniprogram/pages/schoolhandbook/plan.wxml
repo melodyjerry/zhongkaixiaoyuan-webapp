@@ -1,0 +1,28 @@
+
+	
+<view class="page">
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/plan.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">2020年招生计划</view>
+		</view>
+	</view>
+	
+
+	<block wx:for="{{piture}}">
+		<view class="weui-cells">
+			<view class="weui-cell">
+				<view class="weui-cell__hd">
+					<image src="/images/2020.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+				</view>
+				<view class="weui-cell__bd">{{item.title}}</view>
+			</view>
+		</view>
+		<image data-url="{{item.imageurl1}}" bindtap="showDetails" class="situationimage{{item.id}}" src="{{item.imageurl1}}"></image>
+		<image data-url="{{item.imageurl2}}" bindtap="showDetails" class="situationimage{{item.id}}" src="{{item.imageurl2}}"></image>
+		<image data-url="{{item.imageurl3}}" bindtap="showDetails" class="situationimage{{item.id}}" src="{{item.imageurl3}}"></image>
+	</block>
+
+</view>

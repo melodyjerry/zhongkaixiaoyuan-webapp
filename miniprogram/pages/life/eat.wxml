@@ -1,0 +1,55 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/canteen1.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">三水校区</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="除了在饭堂一角中介绍的校内饭堂，校区内和校区周边还有很多餐饮相关的店铺，这些都是假期与舍友、社团好友聚会的好地方。" value-class="van-value" />
+	</van-cell-group>
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="1.校内沁湖商城" />
+    <van-cell value="①平安堂：供应凉茶和小吃，有潮汕牛肉丸、脆皮肠、虾饺、糯米鸡 、烧卖等。早餐和上午的下课时间都会有不少同学。" value-class="van-value" />
+		<van-cell value="②沁湖超市：供应各类生活用品、零食、文具、蔬菜等。虽然规模较小，但相对比较齐全，能满足学生的日常需要。超市背后有饮食区，提供车仔面、乌冬面等。（与一饭附近的学而优超市相似）" value-class="van-value" />
+		<van-cell value="③家乐堡：卖炸鸡、汉堡之类的食品，是宅在宿舍点外卖的不二选择，价格还算便宜。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="2.五谷鱼粉餐厅" />
+    <van-cell value="五谷鱼粉是一家连锁店，老板挺风趣的，除了美味的鱼粉之外，餐厅内还提供聚会等服务，有挺多种菜式可供选择，很多班级聚会和同乡会活动都会选择这里，价格还算可以。" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell title="3.西门外" />
+    <van-cell value="①荣创广场：荣创广场是这两年新开的一家餐饮广场，有一家超市，一家健身房，很多餐饮店铺就不一一介绍了，来到后慢慢探索吧。" value-class="van-value" />
+    <van-cell value="②西门周边：在没有荣创之前，西门周边是最热闹的地方，水果总动员、米线、黄焖鸡、石锅鸡、KTV、山东烤吧等这些都是聚餐的好地方。" value-class="van-value" />
+	</van-cell-group>
+
+   <van-cell-group custom-class="van-cell-group">
+		<van-cell title="4.市区商业广场" />
+    <van-cell value="①新动力广场：新动力广场是离校区最近的一个商业广场，这里有电影院啊，商业广场基本配置都有。" value-class="van-value" />
+    <van-cell value="②三水广场：三水广场是整个商业黄金地段和新旧城区的交汇地带，是三水发展规划的城市中心点，有肯德基、麦当劳、必胜客、星巴克、九毛九、麻辣香锅、探鱼、大家乐、非烤勿扰、大瀛喜、友壹町、寿司正、贡茶、喜茶、傣妹火锅、满记甜品、瑞可爷爷的店、营地BBQ自助烤肉、蒙自源、尝越东南亚餐厅、乐时榴莲披萨、潮楼等等。" value-class="van-value" />
+    <van-cell value="②万达广场：万达广场距离校区最远，具体情况与三水广场相差不大，与其他城市的万达广场配置差不多。" value-class="van-value" />
+	</van-cell-group>
+
+  <view class="weui-cells">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/canteen2.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">广州校区</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="提起广州校区的餐饮，肯定就是南门外的“堕落街”了，顾名思义，在此很容易让人堕落，可想而知饮食之丰富了。来之后快去一探究竟吧。" value-class="van-value" />
+	</van-cell-group>
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="至于其他方面，例如商业广场，这种在广州地区很多，交通出行也很便利，就不一一介绍了。" value-class="van-value" />
+	</van-cell-group>
+</view>

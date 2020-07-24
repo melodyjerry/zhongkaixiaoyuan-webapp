@@ -1,0 +1,8 @@
+.van-cell-group {
+  margin-top: 0.5cm;
+}
+
+.van-button {
+  margin-top: 0.3cm;
+  margin-bottom: 0.3cm;
+}

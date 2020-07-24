@@ -1,0 +1,44 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/treament1.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">三水校区</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="校医院在进西门左手方向，一饭对面。携带病历本（初次会进行购买）就医，只能使用校园卡付款，如果有医保，甲类药品按照90%报销。一般有医保都会挺实惠的，在开学缴费的时候可选择购买一年的医保，价格在300元左右。" value-class="van-value" />
+	</van-cell-group>
+<van-cell-group custom-class="van-cell-group">
+		<van-cell value="也可以去三水人民医院就医，但记得要在一楼开具报销证明，拿材料到校医院同样可进行报销。" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+  <van-cell title="开诊时间：" icon="clock-o"/>
+		<van-cell value="正常上班时间（普通就诊）：周一至周五 8:30-12:00 14:45-18:10" value-class="van-value" />
+    <van-cell value="其他时间同样有医生值班，但只能挂急诊就医，只接受急诊病人。" value-class="van-value" />
+	</van-cell-group>
+
+  
+	<view class="weui-cells">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/treament2.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">广州校区</view>
+		</view>
+	</view> 
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="校医院位于学校东门右侧，去医务室的时候记得带校园卡，医药费都是校园卡支付的。如果买了医保，出示证明，药费都有一定的报销。" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+  <van-cell title="开诊时间：" icon="clock-o"/>
+		<van-cell value="正常上班时间（普通就诊）：周一至周五 8:00-12:30 14:10-17:30" value-class="van-value" />
+    <van-cell value="其他时间同样有医生值班，但只能挂急诊就医，只接受急诊病人。" value-class="van-value" />
+	</van-cell-group>
+</view>

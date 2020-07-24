@@ -1,0 +1,13 @@
+view .van-value {
+  font-size: 28rpx;
+  text-align: justify;
+}
+
+.van-cell-group {
+  margin-top: 0.3cm;
+  margin-bottom: 0.3cm;
+  
+}
+.weui-cells {
+  margin-bottom: 0.3cm;
+}

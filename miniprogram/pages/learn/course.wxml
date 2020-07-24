@@ -1,0 +1,36 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/course.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">课程相关</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="采用学分制，课程每学期都会选一次，在教务系统根据个人培养方案的安排进行选课，最后根据个人选课情况进行上课。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="课程类型有：专业必修，专业选修，通识必修，通识选修。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="要求毕业最低学分与专业有关。一般的，毕业前需修完专业必修与通识必修，专业选修需修满12分，通识选修需修满4个模块共15分。" value-class="van-value" />
+	</van-cell-group>
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="通识必修包括思政、语文、英语、体育等，这些都是必须修完的；通识选修有一些很有趣的课程，根据自己的兴趣进行选择。" value-class="van-value" />
+	</van-cell-group>
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="思政每个人（除港澳台生外）都必修四门课，有马克思主义原理概论（马原）、思想道德修养与法律基础（思修）、毛泽东思想与中国特色社会主义理论（毛概）、中国近现代史纲要（近代史），其中毛泽东思想与中国特色社会主义理论分两个学期教学。推荐选修顺序：思修～近代史～马原～毛概1~毛概2" value-class="van-value" />
+	</van-cell-group>
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="体育课有多种类型可以选择，要修四个学期；一般的，只在大一、大三选修体育，大二选修体育需进行抢课。此外，每学年还会进行体育测试，一般是跑步、引体向上、坐位体前屈、体重、身高、肺活量、立定跳远，如果有身体原因可以向班级体育委员申请免测。" value-class="van-value" />
+	</van-cell-group>
+		<van-cell-group custom-class="van-cell-group">
+		<van-cell value="每个课程会有相对应的考核，考核总评包括平时分、实验成绩、期末考试成绩，考核总评一般折算成相对应的绩点（GPA），如 100分~ 5.0，90分~4.0，85分~3.5，70分~2.0，60分~1.0。" value-class="van-value" />
+		<van-cell value="考核总评低于60分即不合格，不合格的课程不计算绩点，需进行补考，补考成绩折算绩点不包含平时分，补考及格代表此科过关但挂科记录依旧存在；补考未过则需要重修，重修考核与正常考核一致，但挂科记录依旧存在。我校规定，四年平均绩点低于2.0不允许毕业，且就读期间平均绩点低于2.0会触发学业预警，学院会将学习情况通报家长。" value-class="van-value" />
+	</van-cell-group>
+</view>

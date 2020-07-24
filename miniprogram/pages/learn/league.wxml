@@ -1,0 +1,48 @@
+  <view class="page">
+
+  	<view class="weui-cells weui-cells_after-title">
+  		<view class="weui-cell">
+  			<view class="weui-cell__hd">
+  				<image src="/images/league.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+  			</view>
+  			<view class="weui-cell__bd">社团全览</view>
+  		</view>
+  	</view>
+
+
+  	<van-cell-group custom-class="van-cell-group">
+  		<van-cell title="1.学院团学" />
+  		<van-cell value="每个学院都有自己的团委（团总支）、学生会（简称团学），这是一个院级组织，团学受学院党团委管辖，一般只招募本学院的新生。" value-class="van-value" />
+  		<van-cell value="学院团学一般有如下几个部门（每个学院分工设置不同，仅供参考）：秘书处、学习部、青年志愿者协会、组织部、生活部、宣传部、新闻部。" value-class="van-value" />
+  		<van-cell value="有些学院还可能有单独的社团，比如易班、还有像信息学院的党章理论学习社。" value-class="van-value" />
+  	</van-cell-group>
+
+  	<block wx:for="{{leagues}}" wx:for-index="legaguesIndex">
+  		<van-cell-group custom-class="van-cell-group">
+  			<van-cell title="{{item.name}}" />
+  			<van-cell value="简介：{{item.info}}" value-class="van-value" />
+  			<van-cell value="管辖部门：{{item.department}}" value-class="van-value" />
+  			<van-cell value="所在校区：{{item.address}}" value-class="van-value" />
+  		</van-cell-group>
+
+  	</block>
+
+  	<view class="weui-cells weui-cells_after-title">
+  		<view class="weui-cell">
+  			<view class="weui-cell__hd">
+  				<image src="/images/league2.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+  			</view>
+  			<view class="weui-cell__bd">社联中的兴趣组织</view>
+  		</view>
+  	</view>
+
+    	<block wx:for="{{interest}}" wx:for-index="interestIndex">
+  		<van-cell-group custom-class="van-cell-group">
+  			<van-cell title="{{item.genre}}" />
+        <block wx:for="{{item.asssociations}}" wx:for-item="asssociation">
+  			<van-cell value="{{asssociation}}" value-class="van-value" />
+        </block>
+  		</van-cell-group>
+
+  	</block>
+  </view>

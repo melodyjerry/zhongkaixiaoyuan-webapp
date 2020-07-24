@@ -1,0 +1,67 @@
+<view class="container page">
+  <!-- <view class="header">
+    <view class="black-cover">
+    </view>
+    <image class="logo"  src="/images/about.png"></image>
+    <image class="title" src="/images/gdufestore1.png"></image>
+  </view> -->
+  <view class="content">
+    <view class="version">
+      <view class="version-title">
+        <text class="title-name" style="font-size: 30rpx">仲恺小园-迎新专版</text>
+        <text class="version-text">内测{{verson}}</text>
+      </view>
+      <view class="weui-cell__ft">
+        <text class="version-text" bindtap="checkUpdate">版本更新</text>
+      </view>
+    </view>
+    <view class="describe">
+      <!-- <video src="cloud://sb-bbb13a.7362-sb-bbb13a/贝壳小盒子演示.mp4" poster='cloud://sb-bbb13a.7362-sb-bbb13a/ShellBoxheadJPG.jpg' controls style='width:{{width}};height:{{height}};'></video> -->
+      <text class="desc-title">简介</text>
+      <text class="desc-content" style='text-indent:2em;'>『仲恺小园』是一款微信小程序，致力于为仲恺新生提供一个资讯平台。以往资讯分布在各个角落，新生并不能全面地了解到校园的相关信息，仲恺小园迎新专版所做的就是将信息从各个地方收集起来，让新生能够更加的了解仲园，希望新生能够尽快适应仲园的生活。</text>
+      <text class="desc-content" style='text-indent:2em;'>『仲恺小园』目前还处于内测阶段，许多信息正待录入中。</text>
+      <image bindtap="showAppCode" class="weui-article__img" src="/images/webapp.png" mode="widthFix" style="width:100%;border-radius:25rpx;" />
+      <text class="desc-title">数据来源</text>
+      <text class="desc-content">* 仲恺农业工程学院官网；\r\n* 仲恺农业工程学院官微；\r\n* 仲恺农业工程学院教务处；\r\n* 仲恺农业工程学院招生考试处；\r\n* 公众号[仲园24h]；</text>
+      <!-- <text class="desc-content">* 课表、成绩等数据来自教务处官网；\r\n* 图书相关信息来自图书馆官网以及豆瓣；\r\n* 校历、各系部联系电话来自于学院官方网站；\r\n* 用电数据、网费信息来自智慧校园\r\n* 四六级准考证信息来自教育部考试中心</text> -->
+      <text class="desc-title">开发者</text>
+      <view class='avatarGroup'>
+        <view class='oneAvatar' wx:for="{{coder}}" wx:key="coderkey">
+          <view class="userinfo-avatar">
+            <!-- <image src='{{item.avatar}}' data-id="{{item.id}}" style='width:110rpx;height:110rpx;' bindtap="avatardetail"></image> -->
+            <image src='{{item.avatar}}' data-id="{{item.id}}" style='width:110rpx;height:110rpx;' bindtap="avatardetail"></image>
+          </view>
+          <view class="coperatorName">{{item.nickName}}</view>
+        </view>
+      </view>
+      <!-- <text class="desc-title">开发贡献</text>
+      <view>
+        <view class='oneAvatar' wx:for="{{devote}}" wx:key="serverkey">
+          <view class="userinfo-avatar">
+            <image src='{{item.avatar}}' style='width:110rpx;height:110rpx;'></image>
+          </view>
+          <view class="coperatorName">{{item.nickName}}</view>
+        </view>
+      </view> -->
+      <text class="desc-title">关联『仲恺小园』</text>
+      <text class="desc-content" style='text-indent:2em;'>若您或者您的朋友在运营与本校相关的公众号（学生组织/社团/校园自媒体等），我们诚挚地欢迎您的公众号关联我们的小程序！\r\n  </text>
+      <text bindtap='copyID'>点击复制AppID：wx4b9a016e4016c3a6</text>
+      <text class="desc-title">其他</text>
+      <text class="desc-content" style='text-indent:2em;'>内容有错误？或者您希望我们增加哪些内容，请联系我们，您的反馈对我们至关重要！ \r\n </text>
+      <text bindtap='copyQQGroup'>反馈QQ群：test</text>
+    </view>
+
+    <view class="button-sp-area">
+      <button class="weui-btn" type="primary" plain="true" session-from='{"nickName":"{{userInfo.nickName}}", "avatarUrl":"{{userInfo.avatarUrl}}"' open-type='contact'>联系管理员 </button>
+    </view>
+
+  </view>
+
+  <view class="footer">
+    <view class="footer-beingshawn">
+      <text>MelodyJerry</text>
+    </view>
+    <text>仲恺小园--迎新专版</text>
+    <text>Copyright @ 2020 All Rights Reserved</text>
+  </view>
+</view>

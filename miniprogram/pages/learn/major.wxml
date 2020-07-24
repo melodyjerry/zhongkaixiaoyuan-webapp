@@ -1,0 +1,50 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/major.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">转专业信息</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="面向对象:" />
+		<van-cell value="符合条件的普教本科二年级学生。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="适用范围：" />
+		<van-cell value="经济学、管理学、法学、文学、理学和工学学科门类下的专业之间互转；艺术学学科门类中设计学类（代码：1305）下的专业之间互转；佛山校区全学段办学专业的学生原则上在全学段专业之间互转。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="申请时间：" />
+		<van-cell value="每年秋季学期第十周前网上报名申请。" value-class="van-value" />
+	</van-cell-group>
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell title="遵循原则：" />
+		<van-cell value="志愿优先，再根据学分绩点择优录取。" value-class="van-value" />
+	</van-cell-group>
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell title="人数限制：" />
+		<van-cell value="每个专业转入人数不超过该专业本年级调整前实际在读人数的30%；当年没有招生的专业不接收学生转入。" value-class="van-value" />
+	</van-cell-group>
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell title="成绩要求：" />
+		<van-cell value="学生累计平均学分绩点的排名须在同年级同专业的前 40%。" value-class="van-value" />
+	</van-cell-group>
+  
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="有下列情形之一者不得进行申请：" icon="warning-o" />
+		<van-cell value="1.招生时已有明确规定不能转专业的学生，含定向生和国防生等；" value-class="van-value" />
+		<van-cell value="2.招生时有特殊要求的提前批次录取学生；" value-class="van-value" />
+		<van-cell value="3.已修满人才培养方案规定总学分的三分之二及以上的学生；" value-class="van-value" />
+		<van-cell value="4.休学、保留学籍等学籍状况异常的学生;" value-class="van-value" />
+		<van-cell value="5.已调转过一次专业的学生原则上不得再次调转专业；" value-class="van-value" />
+		<van-cell value="6.受过记过及以上处分且未解除的学生;" value-class="van-value" />
+		<van-cell value="7.实验区的学生。" value-class="van-value" />
+	</van-cell-group>
+
+</view>

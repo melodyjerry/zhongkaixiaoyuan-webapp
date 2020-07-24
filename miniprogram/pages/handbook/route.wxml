@@ -1,0 +1,74 @@
+<view class="page">
+
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/route.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">广州校区</view>
+		</view>
+	</view>
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="从广州白云国际机场出发" />
+		<van-cell value="①从广州白云国际机场到机场快线A乘车区乘坐机场快线10号线到机场快线海涛酒店站下，走到冼村路的冼村路北站转乘18路到赤沙总站。" value-class="van-value" />
+		<van-cell value="②从广州白云国际机场到地铁机场南站乘坐地铁三号线（机场南—体育西）到地铁体育西路站转乘地铁三号线（天河客运站—番禺广场）到地铁客村站C出口下，往前走到珠影（地铁客村站）站1转乘37路、14路到赤沙总站。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group>
+		<van-cell title="从广州火车站出发" />
+		<van-cell value="①从广州火车站走到广州火车站汽车总站乘坐211路到客村站下，转乘14路或37路到赤沙总站。" value-class="van-value" />
+		<van-cell value="②从广州火车站走到地铁，乘坐地铁五号线到地铁猎德站A出口下，往后走到猎德东站转乘18路到赤沙总站。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group>
+		<van-cell title="从广州火车东站出发" />
+		<van-cell value="①从广州火车东站走约170米到广州火车东站总站乘坐302路A（部分无站牌）、45路到大塘站（江海大道）转乘37路、18路、14路到赤沙总站。" value-class="van-value" />
+		<van-cell value="②从广州火车东站走约60米到地铁广州东站E入口乘坐地铁三号线（机场南—体育西）到地铁体育西路站转乘地铁三号线（天河客运站—番禺广场）到地铁客村站C出口下，往前走到珠影（地铁客村站）站1转乘37路、14路到赤沙总站。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group>
+		<van-cell title="从广州南站出发" />
+		<van-cell value="到地铁广州南站I1出入口乘坐地铁二号线到昌岗站转乘地铁八号线到地铁客村站C出口下，往前走到珠影（地铁客村站）站1转乘37路、14路到赤沙总站。" value-class="van-value" />
+	</van-cell-group>
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/route2.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">三水校区</view>
+		</view>
+	</view>
+
+	<van-cell-group>
+		<van-cell title="汽车" />
+		<van-cell value="①自驾车：驾车走二广高速行至云东海收费站，出站后走云东海大道——内环南路——大学路即可到达学校西门（白沙煤场旁）。" value-class="van-value" />
+		<van-cell value="②客车：直接坐车到达三水汽车站，然后坐666、634直达学校西门（坐635可到学校东门）。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group>
+		<van-cell title="从三水南站出发（高铁站）" />
+		<van-cell value="到达三水南站后，乘坐666可直达广东财经大学西门。或坐647等公交车到三水汽车站，然后搭乘634、666到达学校西门或坐635到东门。" value-class="van-value" />
+	</van-cell-group>
+	<van-cell-group>
+		<van-cell title="坐高铁到达广州后" />
+		<van-cell value="①到天河客运站或者省站等大客运站，都有车直达三水汽车站，然后坐666或者634公车到达广东财经大学西门或坐635到东门。" value-class="van-value" />
+    <van-cell value="②高铁到广州南站后，可直接站内转乘高铁，到三水南站到达三水南站后，乘坐666可直达广东财经大学西门。或坐647等公交车到三水汽车站，然后搭乘634、666到达学校西门或坐635到东门。" value-class="van-value" />
+	</van-cell-group>
+  <van-cell-group>
+		<van-cell title="城轨" />
+		<van-cell value="可搭乘广佛肇城轨，坐至云东海站，然后坐666或者634到广东财经大学西门" value-class="van-value" />
+	</van-cell-group>
+	<van-cell-group>
+		<van-cell title="从广州火车站出发" />
+		<van-cell value="①到达广州火车站后，继续坐火车到三水火车站，然后坐602公交车到三水汽车站然后坐634、666到广东财经大学西门或635到东门。" value-class="van-value" />
+     <van-cell value="②到达广州火车站后，可到广州省站搭乘大巴到三水汽车站，然后坐634、666到广东财经大学西门或635到东门。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="从广州白云国际机场出发" />
+		<van-cell value="①搭乘飞机到达广州后，到天河或者省站等大客运站都有车票直达三水汽车站，然后坐610或634公车可直达校门口（终点站 大约15分钟）或者打的士到广东财经大学西门；" value-class="van-value" />
+		<van-cell value="②下机后从飞机场乘坐前往肇庆（途径：三水）的机场快线到达三水汽车站，然后634公车或者打的士到广东财经大学西门。" value-class="van-value" />
+	</van-cell-group>
+</view>

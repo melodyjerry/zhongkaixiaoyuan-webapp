@@ -1,0 +1,45 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/time.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">时间相关</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="课堂一天安排12小节，1小节45分钟，两小节为一大节，一般以一大节为单位上课（有些三小节连上），两校区的上课时间有所不同，具体上课情况与个人选课有关。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="上课时间（三水校区）" icon="clock-o" />
+		<van-cell value="第1-2节：8:30-10:00" value-class="van-value" />
+		<van-cell value="第3-4节：10:20-11:50" value-class="van-value" />
+		<van-cell value="第5-6节：14:00-15:30" value-class="van-value" />
+		<van-cell value="第7-8节：15:50-17:20" value-class="van-value" />
+		<van-cell value="第9-10节：18:30-20:00" value-class="van-value" />
+		<van-cell value="第11-12节：20:20-21:50" value-class="van-value" />
+		<van-cell value="注：一大节90分钟，两大节之间有20分钟的课间时间，小节之间无课间休息。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="上课时间（广州校区）" icon="clock-o" />
+		<van-cell value="第1-2节：8:00-9:40" value-class="van-value" />
+		<van-cell value="第3-4节：10:00-11:40" value-class="van-value" />
+		<van-cell value="第5-6节：14:10-15:50" value-class="van-value" />
+		<van-cell value="第7-8节：16:10-17:50" value-class="van-value" />
+		<van-cell value="第9-10节：18:40-20:20" value-class="van-value" />
+		<van-cell value="第11-12节：20:30-22:10" value-class="van-value" />
+		<van-cell value="注：一大节90分钟，两大节之间有20分钟的课间时间，小节之间有10分钟的课间时间。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="作息时间" icon="clock-o" />
+		<van-cell value="早读、早练：7:30-8:00" value-class="van-value" />
+		<van-cell value="熄灯：23:30" value-class="van-value" />
+    <van-cell value="门禁：0:00" value-class="van-value" />
+		<van-cell value="注：宿舍不断电不断网，但规定要按时熄灯。周五、周六和节假日晚上不要求按时熄灯且无门禁。" value-class="van-value" />
+	</van-cell-group>
+</view>

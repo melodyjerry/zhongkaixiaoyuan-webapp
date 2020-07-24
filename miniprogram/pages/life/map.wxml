@@ -1,0 +1,23 @@
+
+<view class="page">
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/map.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">校区地图</view>
+		</view>
+	</view>
+
+		<van-cell-group custom-class="van-cell-group">
+      <van-cell title="三水校区" icon="location-o"/>
+			
+		</van-cell-group>
+    	<image data-url="https://note.youdao.com/yws/api/personal/file/WEB0be3318fe726e8506f3b6c9b1f36409b?method=download&shareKey=0e177655b2182069b718bf3c2b3a87d6" bindtap="showDetails" class="mapsanshui" src="https://note.youdao.com/yws/api/personal/file/WEB0be3318fe726e8506f3b6c9b1f36409b?method=download&shareKey=0e177655b2182069b718bf3c2b3a87d6"></image>
+
+	<van-cell-group custom-class="van-cell-group">
+      <van-cell title="广州校区" icon="location-o"/>
+			
+		</van-cell-group>
+    	<image data-url="https://note.youdao.com/yws/api/personal/file/WEB9f87f6c3a83b6cb7f56ce5959446021e?method=download&shareKey=3010c958724f9117b13100435a111f83" bindtap="showDetails" class="mapguangzhou" src="https://note.youdao.com/yws/api/personal/file/WEB9f87f6c3a83b6cb7f56ce5959446021e?method=download&shareKey=3010c958724f9117b13100435a111f83"></image>
+</view>

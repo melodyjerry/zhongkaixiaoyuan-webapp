@@ -1,0 +1,63 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/recruit.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">招生概况</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="学校国标代码：11347" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="海珠校区地址：" />
+		<van-cell value="广州市海珠区仲恺路501号；" value-class="van-value" />
+		<van-cell value="邮政编码:510230" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+	<van-cell title="白云校区地址：" />
+		<van-cell value="广州市白云区广新路388号；" value-class="van-value" />
+		<van-cell value="邮政编码:510419" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+	<van-cell title="2020年招生目标"/>
+		<van-cell value="学校2020年面向12个省（自治区）招生，专业58个；在广东省普通高考计划招生5678人，其中艺术285人，文科普通类868人，理科普通类4525人；在广东省外计划招生222人。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="2020年招生新变化"/>
+		<van-cell value="①今年在广东省普通高考招生计划较去年增加198人。其中艺术增加15人；文科减少81人；理科增加264人。在广东省外招生计划较去年增加22人。" value-class="van-value" />
+		<van-cell value="②新增四个招生专业。分别是文化产业管理，招生计划70人；数据科学与大数据技术，招生计划70人；机器人工程，招生计划70人；生物科学类（国际班）（与新西兰梅西大学3+2本硕连读联合培养），招生计划25人。" value-class="van-value" />
+		<van-cell value="③除生物科学类（国际班)外，其他所有专业不再大类招生。" value-class="van-value" />
+		<van-cell value="④广东省美术类录取方式有变化。从2020年始，美术类专业，投档至我校的广东生源考生，按投档总分排位情况，分数优先，从高到低排序录取，先安排排位高的考生的第一专业志愿，若该专业额满，再逐一查看该生的后续专业志愿。" value-class="van-value" />
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="2020年新增专业"/>
+		<van-cell value="仲恺农业工程学院于2020年起新增4个招生专业，分别是文化产业管理，招生计划70人；数据科学与大数据技术，招生计划70人；机器人工程，招生计划70人；生物科学类（国际班）（与新西兰梅西大学3+2本硕连读联合培养），招生计划25人。" value-class="van-value" />
+		<image class="mottoimage" style="heigh: 290rpx;" src="https://mmbiz.qpic.cn/sz_mmbiz_png/j0qibs9ldPngTuun4sp4KE5HMCsiafEMibiaufIz7J8VQggNGNEpPicOdXu0uRIRzA33dqFJELKs5OxXpsdibHH86micg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+	</van-cell-group>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="专业志愿优先原则：" />
+		<van-cell value="平行志愿投档原则为“分数优先，遵循志愿”。" value-class="van-value" />
+		<van-cell value="按考生成绩排序情况从高到低检索，排序高的优先检索，再按考生填报的院校志愿依次逐个检索投档；术科考生需文化课总成绩（含政策性照顾加分）和术科统考成绩双上线。" value-class="van-value" />
+		<van-cell value="排序在前面的院校总会比后面的优先检索录取。 " value-class="van-value" />
+		<image class="mottoimage" style="heigh: 290rpx;" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/j0qibs9ldPngTuun4sp4KE5HMCsiafEMibia6R6np9c65ia2Z92SElGcHLM9I23ia1eAR3E1xzz8eANSzdMYNMNld2ZA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+		<van-cell value=" " value-class="van-value" />
+	</van-cell-group>
+
+
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell bindtap="copyPhone" value=" 招生处咨询电话：020-89003280（点击复制） " value-class="van-value" />
+	</van-cell-group>
+
+
+</view>

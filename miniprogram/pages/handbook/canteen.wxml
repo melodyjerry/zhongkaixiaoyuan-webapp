@@ -1,0 +1,67 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/canteen1.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">三水校区</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="三水校区有三个饭堂，分别是一饭、二饭、三饭，每个饭堂各具特色，费用相差不大，基本都是粤菜，口味因人而异。" value-class="van-value" />
+	</van-cell-group>
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="一饭靠近杏园、李园和体育场，一般是这两个园区或者下体育课后过来吃饭。一饭有两层，一层是小盘自助快餐制，二层是点餐制；最重要的是只有一饭晚上会有夜宵，开放时间到22:30，这里的烧烤还算可以，宿舍小聚可以选择。" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell value="二饭靠近桃园，李园，这里前年刚刚装修完，是三个饭堂（内部）中最豪华的；二饭的菜式挺多的，如柠檬鸡、土豆鸭之类的，烧腊是二饭的特色之一，每次下课烧腊窗口的队伍贼长。二饭有三层，一二层是学生餐厅，二层有火锅可以预约，三层是教师餐厅，一般不对学生个人开放，但如果是社团聚会也可以联系三层的经理预约。" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell value="三饭靠近竹园、紫园，三饭有两层，两层菜式相差不大。三饭最受欢迎的莫过于益禾堂了，饭后来一杯益禾堂，可能就是上完一早上课后最好的心理慰藉了。" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell title="三水饭堂环境：" value-class="van-value" />
+	</van-cell-group>
+
+<block wx:for="{{sanshui}}">
+  	<image  style="width : 100%;height: 500rpx;" src="{{item.imag}}"></image>
+</block>
+
+
+<view class="weui-cells">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/canteen2.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">广州校区</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="广州校区有三个饭堂，分别是一饭、二饭、三饭。" value-class="van-value" />
+	</van-cell-group>
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="一饭最靠近图书馆，一楼有现煮小馄饨和超好喝的小碗炖汤，炖汤有特别特别多口味，广东人必备，时间来不及的话还可以选择饭堂门口的面包店，做的很好吃；二楼有超赞的酸菜鱼，每次胃口不太好的时候就去吃酸菜鱼和酸汤肥牛。" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell value="二饭靠近实验楼，旁边还有全家便利店，一楼在早上有肠粉、小笼包、饺子，中午和晚上都有小碗炖汤，但是相对一饭来说品种没那么多，但是也好喝！二楼有蛋包饭，还不错，平时有挺多人排队。" value-class="van-value" />
+	</van-cell-group> 
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell value="三饭靠近32栋和南门，有从早到晚都特别快的东北大饼小窗，卖的是做好了的鸡蛋饼、葱油饼等等，如果急着上课可以选择这个窗，基本不用排长队，还有可以自选菜的麻辣烫，干净卫生还好吃；还有平时三饭的大众餐也很受欢迎，用小碟子装菜看起来很精致，价格也不贵，三饭还有一个水果店，卖一些水果和鲜榨果汁，偶尔能看到一些很便宜又新鲜的水果做活动。" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell title="广州饭堂环境：" value-class="van-value" />
+	</van-cell-group>
+
+<block wx:for="{{guangzhou}}">
+  	<image  style="width : 100%;height: 500rpx;" src="{{item.imag}}"></image>
+</block>
+</view>

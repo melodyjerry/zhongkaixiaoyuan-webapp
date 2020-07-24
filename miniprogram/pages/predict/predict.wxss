@@ -1,0 +1,28 @@
+.top-green view  {
+  color: #07c160;
+}
+.van-panel {
+  margin-top: 0.3cm;
+  margin-bottom: 0.2cm;
+}
+
+.select-button {
+  width: 5rpx;
+}
+
+.panelHead view {
+  font-weight: bold;
+}
+.van-button {
+  margin-top: 0.3cm;
+  margin-bottom: 0.3cm;
+}
+
+view .info-class {
+  font-size: 28rpx;
+  text-align: justify;
+}
+
+view .van-value-desc  {
+  text-align: justify;
+}

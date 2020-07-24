@@ -1,0 +1,36 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/deliver.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">快递相关</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="快递地址（点击可复制）" />
+		<van-cell bindtap="copyAdress" data-address="广东省广州市海珠区仑头路21号广东财经大学" value="广州校区地址：广东省广州市海珠区仑头路21号广东财经大学；" value-class="van-value" />
+    		<van-cell bindtap="copyAdress" data-address="广东省佛山市三水区云东海街道学海路1号广东财经大学" value="三水校区地址：广东省佛山市三水区云东海街道学海路1号广东财经大学；" value-class="van-value" />
+	</van-cell-group>
+
+
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell title="1.三水校区" />
+    <van-cell value="①顺丰：七喜打印店（学而优超市旁、游泳池旁）" value-class="van-value" />
+		<van-cell value="②邮政：沁湖商城" value-class="van-value" />
+		<van-cell value="③京东：西门外荣创广场-京东派" value-class="van-value" />
+    <van-cell value="④中通、百世、天天、韵达、申通：西门荣创广场-启航菜鸟驿站" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell title="2.广州校区" />
+    <van-cell value="①多数快递在蜂创快递点或者蜜蜂箱（二教和第二综合楼之间）" value-class="van-value" />
+		<van-cell value="②菜鸟驿站：从东门出去，从直对的小巷进去，当左边是一家水果店的时候，右转一直走就能看见" value-class="van-value" />
+		<van-cell value="③顺丰在三饭后面" value-class="van-value" />
+    <van-cell value="④京东派：出东门后左转走到尽头右转，在第一个巷口处左拐" value-class="van-value" />
+	</van-cell-group>
+	
+</view>

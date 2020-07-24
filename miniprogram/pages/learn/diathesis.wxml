@@ -1,0 +1,26 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/diathesis.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">趣拓相关</view>
+		</view>
+	</view>
+
+
+		<van-cell-group custom-class="van-cell-group">
+			<van-cell title="什么是趣拓？" />
+			<van-cell value="趣拓也叫素拓，又叫第二课堂成绩，是一种素质拓展分，属于学分的一种。趣拓一共有10分，分为七个类别，四年内要集满各类别要求的学分数量才可毕业。趣拓是为了鼓励多参加学校培训、竞赛等活动，促使同学们多方面发展。具体类别分数以及获得方式如下：" value-class="van-value" />
+		</van-cell-group>
+
+<block wx:for="{{diathesis}}">
+	<van-cell-group custom-class="van-cell-group">
+			<van-cell title="{{item.name}}" />
+			<van-cell value="{{item.getMethod}}" value-class="van-value" />
+		</van-cell-group>
+
+</block>
+
+</view>

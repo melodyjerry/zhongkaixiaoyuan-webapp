@@ -1,0 +1,9 @@
+.page__title {
+  font-size: 65rpx;
+  text-align: center;
+}
+.page__desc {
+  margin-top: 0.3cm;
+  margin-bottom: 0.7cm;
+  text-align: center;
+}

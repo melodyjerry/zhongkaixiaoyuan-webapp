@@ -1,0 +1,68 @@
+{
+  
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/melodyjerry/melodyjerry",
+    
+    "pages/school/school",
+    "pages/school/college",
+
+    "pages/schoolhandbook/recruit",
+    "pages/schoolhandbook/plan",
+    "pages/schoolhandbook/previous",
+    "pages/schoolhandbook/cost",
+    "pages/schoolhandbook/suggestion",
+    "pages/schoolhandbook/consult",
+ 
+    "pages/handbook/route",
+    "pages/handbook/antifraud",
+    "pages/handbook/dorm",
+    "pages/handbook/canteen",
+    "pages/handbook/miltrain",
+
+
+    "pages/learn/time",
+    "pages/learn/course",
+    "pages/learn/url",
+    "pages/learn/diathesis",
+    "pages/learn/major",
+    "pages/learn/minor",
+    "pages/learn/league",
+    
+    "pages/life/electric",
+    "pages/life/wifi",
+    "pages/life/treament",
+    "pages/life/eat",
+    "pages/life/deliver",
+    "pages/life/map",
+
+    "pages/predict/addMajor",
+    "pages/predict/predict",
+    
+    "pages/panel/panel",
+    "pages/miltrain/miltrain",
+    "pages/list/list",
+    "pages/NotFound/NotFound"
+    
+  ],
+
+  
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "仲恺小园-迎新专版",
+    "navigationBarBackgroundColor": "#EDEDED",
+    "backgroundColor": "#EDEDED"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+
+  "requiredBackgroundModes": ["audio", "location"],
+  "style": "v2",
+  "debug": true,
+  "sitemapLocation": "sitemap57.json"
+}

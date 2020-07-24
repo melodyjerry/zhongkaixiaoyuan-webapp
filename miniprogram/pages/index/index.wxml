@@ -1,0 +1,46 @@
+<view>
+	<view class="page">
+		<view class="page__hd">
+			<view class="page__title">
+				<view class="welcome">
+					<view class="welcomeLeft">仲恺小园</view>
+					<view class="welcomeRight">-- 迎新专版</view>
+				</view>
+			</view>
+			<view class="page__desc"></view>
+		</view>
+		<view class="page__bd page__bd_spacing">
+			<view class="kind-list">
+				<block wx:for="{{list}}" wx:key="id">
+					<view class="kind-list__item">
+						<view id="{{item.id}}" class="weui-flex kind-list__item-hd {{item.open ? 'kind-list__item-hd_show' : ''}}" bindtap="kindToggle">
+							<view class="weui-flex__item">{{item.name}}</view>
+							<image class="kind-list__img" src="/images/{{item.id}}.png"></image>
+						</view>
+						<view class="kind-list__item-bd {{item.open ? 'kind-list__item-bd_show' : ''}}">
+							<view class="weui-cells {{item.open ? 'weui-cells_show' : ''}}">
+								<block wx:for="{{item.pages}}" wx:for-item="page" wx:for-index="pageIndex" wx:key="pageIndex">
+									<navigator class="navto" url="{{item.urls[pageIndex]}}" open-type="navigate">
+										<view class="weui-cell__bd">{{page}}</view>
+										<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+									</navigator>
+								</block>
+							</view>
+						</view>
+					</view>
+				</block>
+			</view>
+		</view>
+	</view>
+	<view class="weui-footer" style="margin:30px 0;">
+		<view class="weui-footer__text flexFooter">
+			<button class="footerbutton" open-type="share">分享</button>
+			<view style="margin:0 5px;">|</view>
+			<button class="footerbutton" bindtap="openAbout">
+				关于
+			</button>
+		</view>
+		<view class="weui-footer__text">MelodyJerry</view>
+		<view class="weui-footer__text">Copyright @ 2020 All Rights Reserved</view>
+	</view>
+</view>

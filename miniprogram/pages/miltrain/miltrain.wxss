@@ -1,0 +1,10 @@
+.weui-cell__bd {
+  font-weight: bold;
+}
+.weui-cell__ft {
+  font-size: 28rpx;
+  text-align: justify;
+}
+.weui-media-box__desc {
+  height: auto;
+}

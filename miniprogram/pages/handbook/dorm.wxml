@@ -1,0 +1,35 @@
+<view class="page">
+
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell">
+			<view class="weui-cell__hd">
+				<image src="/images/dorm1.png" style="margin-right: 10px;vertical-align: middle;width:35px; height: 35px;"></image>
+			</view>
+			<view class="weui-cell__bd">三水校区</view>
+		</view>
+	</view>
+
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="三水校区宿舍分为李园、竹园、杏园、桂园、紫园、桃园，其中目前竹园是男生宿舍，桂园、紫园是女生宿舍，杏园、李园和桃园是男女混住宿舍。" value-class="van-value" />
+	</van-cell-group>
+	<van-cell-group custom-class="van-cell-group">
+		<van-cell value="三水校区所有宿舍均是上床下桌，都是 4人 一间宿舍，独立卫浴，除部分宿舍是两个宿舍共用一个阳台，其余都是独立阳台。宿舍的楼层不高，最高六层，上下轻松。" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell value="三水校区宿舍已经做到空调全覆盖，可以使用洗衣机，但不能使用大功率等违禁电器。宿舍全天候不断电不断网，但有规定23:30为熄灯时间（自行熄灯），晚上 12点 是门禁，超过会被记夜归。" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell value="三水校区宿舍费用为 1500元/学年；电费，水费，网费根据自己的使用情况缴纳。" value-class="van-value" />
+	</van-cell-group>
+
+  <van-cell-group custom-class="van-cell-group">
+		<van-cell title="宿舍环境：" value-class="van-value" />
+	</van-cell-group>
+
+<block wx:for="{{sanshui}}">
+  	<image  style="width : 100%;height: 500rpx;" src="{{item.image}}"></image>
+</block>
+
+</view>
